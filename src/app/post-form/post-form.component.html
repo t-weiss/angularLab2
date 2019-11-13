@@ -1,0 +1,22 @@
+<div class="formDiv hidden">
+  <form (ngSubmit)="submitPost()">
+    <label for="titleInput">Title</label>
+    <input
+      [(ngModel)]="newPost.title"
+      name="titleInput"
+      type="text"
+      class="formInput"
+      id="titleInput"
+    />
+    <label for="thoughtInput">Thought</label>
+    <textarea
+      [(ngModel)]="newPost.thought"
+      rows="4"
+      cols="50"
+      class="formInput"
+      name="thoughtInput"
+      id="thoughtInput"
+    ></textarea>
+    <button>Add Post</button>
+  </form>
+</div>

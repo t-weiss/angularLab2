@@ -1,0 +1,35 @@
+/* .hidden {
+  display: none;
+} */
+div {
+  background-color: #b1ddea;
+  /* width: 50%; */
+  padding: 0px 20px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px;
+  font-family: "Dosis", sans-serif;
+}
+label {
+  display: block;
+}
+.formInput {
+  width: 96%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: "Dosis", sans-serif;
+  padding: 2% 2%;
+}
+
+/* #titleInput {
+  height: 30px;
+} */
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Dosis", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}

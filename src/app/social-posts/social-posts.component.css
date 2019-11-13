@@ -1,0 +1,38 @@
+.contentBox {
+  font-family: "Dosis", sans-serif;
+  width: 50%;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+.thoughtButton {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+}
+
+.titleDiv > h1 {
+  margin: 0px;
+}
+.pageTitle {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(3, 169, 244);
+  align-items: center;
+}
+.titleDiv {
+  display: flex;
+  justify-content: center;
+}
+.postsBox {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,17 @@
+.postTitle {
+  font-size: 24px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.postContent {
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+.postText {
+  display: inline;
+  margin-right: 21px;
+}
+.fas {
+  position: absolute;
+  right: 10px;
+}
